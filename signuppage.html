@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Rashell's Sign-Up Page </title>
+</head>
+<style>
+
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+}
+
+
+
+/*signup button*/
+button {
+    color: black;
+    background-color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: 2px solid #33ff67;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 50%;
+}
+
+
+.cancelbutton {
+    padding: 14px 20px;
+     
+    border: 2px solid #F1FF33;
+}
+
+.cancelbutton,.signupbutton {
+    float: center;
+    width: 50%<br>;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+@media screen and (max-width: 150px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+</style>
+<body bgcolor="#FF0000">
+
+<center><h2>Rashell's Sign-up Page</h2></center>
+
+<form>
+<center>  
+  <div class="container"> 
+    <label><b>Please Enter Your Full Name:</b></label><br>
+    <input type="text" placeholder="Full Name" name="fullname" required ><br>
+    
+    <label><b>Please Enter Your Email Address:</b></label><br>
+    <input type="text" placeholder="Email@email.com" name="email" required><br>
+
+    <label><b>Please Enter Your Contact Number:</b></label><br>
+    <input type="text" placeholder="+1000-000-0000" name="number" required><br>
+
+    <label><b>Please Enter Your Birthdate:</b></label><br>
+    <input type="text" placeholder="mm/dd/yyyy" name="Birthday" required><br>
+
+    <label><b>Please Select Your Gender:</b></label>
+    <select>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Not Sure">Not Sure</option>
+      <option vlaue="Don't Want To Answer">Don't Want To Answer</option>
+    </select>
+
+    <div class="clearfix">
+      <button type="submit" class="signupbutton">Sign Up</button>
+      <button type="button" class="cancelbutton">Cancel</button>
+    </div>
+  </div>
+</center>
+</form>
+
+</body>
+</html>
