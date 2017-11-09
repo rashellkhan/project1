@@ -5,14 +5,14 @@
 </head>
 <style>
 form{
-border: 3px solid #f1f1f1;
+border: 3px solid #C0C0C0;
 }
 input[type=text], input[type=password] {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #FF0000;
     box-sizing: border-box;
 }
 
@@ -24,7 +24,7 @@ button {
     background-color: white;
     padding: 14px 20px;
     margin: 8px 0;
-    border: 2px solid #4CAF50;
+    border: 2px solid #000000;
     border-radius: 100px;
     cursor: pointer;
     width: 20%;
@@ -34,7 +34,7 @@ button {
 .cancelbutton {
     padding: 14px 20px;
      
-    border: 2px solid #f44336;
+    border: 2px solid #000000;
 }
 
 .cancelbutton,.signupbutton {
@@ -61,7 +61,7 @@ button {
     }
 }
 </style>
-<body bgcolor="#b9dcd2">
+<body bgcolor="#808080">
 
 <center><h2>Login</h2></center>
  <form class="form-horizontal" action="./correct.php" method="POST" target="_blank">
